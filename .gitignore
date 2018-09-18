@@ -1,0 +1,13 @@
+node_modules
+.idea
+npm-debug.log
+.DS_Store
+dist
+lib
+target
+log
+tmp
+test/pact/*.json
+vendor
+.bundle
+yarn-error.log
