@@ -1,11 +1,10 @@
 {
   "name": "tree-shaking-npm-module-demo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "lib/index.js",
-  "sideEffect": true,
+  "sideEffect": false,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d lib"
   },
   "author": "",
@@ -21,7 +20,8 @@
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.11",
+    "lodash-es": "^4.17.11"
   },
   "devDependencies": {
     "babel-plugin-transform-export-extensions": "^6.22.0"
