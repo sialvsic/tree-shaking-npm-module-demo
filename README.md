@@ -13,7 +13,6 @@ npm publish
 ```
 
 # Branch
-- advanced-without-sideEffects(@1.0.0-b3)
-  - no `"sideEffects": false`
+- advanced-with-sideEffects(@1.0.0-c1)
+  - set `"sideEffects": false`
   - no extra third-party packages
-

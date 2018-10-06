@@ -1,8 +1,9 @@
 {
   "name": "tree-shaking-npm-module-demo",
-  "version": "1.0.0-b3",
+  "version": "1.0.0-c1",
   "description": "",
   "main": "lib/index.js",
+  "sideEffects": false,
   "scripts": {
     "build": "babel src -d lib"
   },
