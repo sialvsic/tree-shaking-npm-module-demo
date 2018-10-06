@@ -3,14 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
-  "sideEffects": false,
   "scripts": {
     "build": "babel src -d lib"
   },
-  "author": "",
+  "author": "sialvsic",
   "license": "ISC",
   "publishConfig": {
-    "registry": "http://localhost:4873",
     "email": "sialvsic@outlook.com"
   },
   "files": [
